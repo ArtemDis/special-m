@@ -892,7 +892,7 @@ function MainHolder:Window(HubTitle)
         end
     end)
 
-    MainHolder:Button("Artem Hub Community", function()
+    MainHolder:Button("Community", function()
         local req = (syn and syn.request) or (http and http.request) or http_request
         if req then
             req({
